@@ -37,18 +37,18 @@ int main()
         break;
        case '2':
        printf("You have choosed Main course\n");
-       printf("1.\n2. \n3. \n4. Exit\n");
+       printf("1.CB\n2. CC\n3. CF\n4. Exit\n");
        scanf(" %c", &ch); 
          switch(ch)
         {
             case '1':
-            printf("You have choosed \n");
+            printf("You have choosed CB\n");
             break;
             case '2':
-            printf("You have choosed \n");
+            printf("You have choosed CC\n");
             break;
             case '3':
-            printf("You have choosed \n");
+            printf("You have choosed CF\n");
             break;
             case '4':
             printf("You have choosed Exit\n");
@@ -59,18 +59,18 @@ int main()
          break;
         case '3':
        printf("You have choosed Dessert\n");
-       printf("1.\n2. \n3. \n4. Exit\n");
+       printf("1. Ice Cream\n2. Cake\n3. Pastry\n4. Exit\n");
        scanf(" %c", &ch);
           switch(ch)
           {
               case '1':
-              printf("You have choosed \n");
+              printf("You have choosed Ice Cream\n");
               break;
               case '2':
-              printf("You have choosed \n");
+              printf("You have choosed Cake\n");
               break;
               case '3':
-              printf("You have choosed \n");
+              printf("You have choosed Pastry\n");
               break;
               case '4':
               printf("You have choosed Exit\n");
