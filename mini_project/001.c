@@ -2,7 +2,7 @@
 
 int main()
 {
-    char op;
+    char op, ch;
 
     printf("<--------Welcome to my Dhaba---------> \n\n");
     printf("select what you want-> \n");
@@ -16,14 +16,68 @@ int main()
        case '1':
        printf("You have choosed starters\n");
        printf("1.DC\n2. PP\n3. CT\n4. Exit\n");
+       scanf(" %c", &ch);
+        switch(ch)
+        {
+            case '1':
+            printf("You have choosed DC\n");
+            break;
+            case '2':
+            printf("You have choosed PP\n");
+            break;
+            case '3':
+            printf("You have choosed CT\n");
+            break;
+            case '4':
+            printf("You have choosed Exit\n");
+            break;
+            default:
+            printf("Invalid choice\n");
+        }
         break;
        case '2':
        printf("You have choosed Main course\n");
        printf("1.\n2. \n3. \n4. Exit\n");
+       scanf(" %c", &ch); 
+         switch(ch)
+        {
+            case '1':
+            printf("You have choosed \n");
+            break;
+            case '2':
+            printf("You have choosed \n");
+            break;
+            case '3':
+            printf("You have choosed \n");
+            break;
+            case '4':
+            printf("You have choosed Exit\n");
+            break;
+            default:
+            printf("Invalid choice\n");
+         }
          break;
         case '3':
        printf("You have choosed Dessert\n");
        printf("1.\n2. \n3. \n4. Exit\n");
+       scanf(" %c", &ch);
+          switch(ch)
+          {
+              case '1':
+              printf("You have choosed \n");
+              break;
+              case '2':
+              printf("You have choosed \n");
+              break;
+              case '3':
+              printf("You have choosed \n");
+              break;
+              case '4':
+              printf("You have choosed Exit\n");
+              break;
+              default:
+              printf("Invalid choice\n");
+          } 
         break;
         case '4':
        printf("You have choosed Exit\n");
@@ -34,4 +88,5 @@ int main()
        
        
     }
+    return 0;
 }
