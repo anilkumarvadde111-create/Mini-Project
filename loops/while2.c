@@ -1,3 +1,4 @@
+//print sum of even numbers from 2 to n
 #include <stdio.h>
 int main()
 {

@@ -15,21 +15,21 @@ int main()
     {
        case '1':
        printf("You have choosed starters\n");
-       printf("1.DC\n2. PP\n3. CT\n4. Exit\n");
+       printf("1.Dragon Chicken\n2. Chicken Pista\n3. Chicken Tikka\n4. Exit\n");
        scanf(" %c", &ch);
         switch(ch)
         {
             case '1':
-            printf("You have choosed DC\n");
+            printf("You have choosed Dragon Chicken\n");
             break;
             case '2':
-            printf("You have choosed PP\n");
+            printf("You have choosed Chicken Pista\n");
             break;
             case '3':
-            printf("You have choosed CT\n");
+            printf("You have choosed Chicken Tikka\n");
             break;
             case '4':
-            printf("You have choosed Exit\n");
+            printf("Exit\n");
             break;
             default:
             printf("Invalid choice\n");
@@ -37,21 +37,21 @@ int main()
         break;
        case '2':
        printf("You have choosed Main course\n");
-       printf("1.CB\n2. CC\n3. CF\n4. Exit\n");
+       printf("1.Chicken Biryani\n2. Chicken Curry\n3. Chicken Fry\n4. Exit\n");
        scanf(" %c", &ch); 
          switch(ch)
         {
             case '1':
-            printf("You have choosed CB\n");
+            printf("You have choosed Chicken Biryani\n");
             break;
             case '2':
-            printf("You have choosed CC\n");
+            printf("You have choosed Chicken Curry\n");
             break;
             case '3':
-            printf("You have choosed CF\n");
+            printf("You have choosed Chicken Fry\n");
             break;
             case '4':
-            printf("You have choosed Exit\n");
+            printf("Exit\n");
             break;
             default:
             printf("Invalid choice\n");
@@ -73,18 +73,18 @@ int main()
               printf("You have choosed Pastry\n");
               break;
               case '4':
-              printf("You have choosed Exit\n");
+              printf("Exit\n");
               break;
               default:
               printf("Invalid choice\n");
           } 
         break;
         case '4':
-       printf("You have choosed Exit\n");
+       printf(" Exit from the menu\n");
        printf("Come again soon\n");
        break;
        default:
-         printf("Invalid choice\n");
+         printf("Nothing ordered\n");
        
        
     }
